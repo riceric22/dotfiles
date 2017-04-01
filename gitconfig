@@ -1,0 +1,9 @@
+[core]
+	autocrlf = true
+[user]
+	name = Eric Wong
+	email = ericwong@cs.cmu.edu
+[push]
+	default = simple
+[pull]
+	rebase = true
