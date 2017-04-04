@@ -1,5 +1,3 @@
-[core]
-	autocrlf = true
 [user]
 	name = Eric Wong
 	email = ericwong@cs.cmu.edu
