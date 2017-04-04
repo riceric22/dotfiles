@@ -7,7 +7,7 @@
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="awesomepanda"
+ZSH_THEME="simple"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -90,3 +90,10 @@ export PATH="/root/miniconda3/bin:$PATH"
 # add git ssh key
 export GIT_SSH="ssh"
 export GIT_EDITOR=vim
+
+# for now, disabled threading until windows 10 creator update
+export KMP_AFFINITY=disabled
+
+# enable testing of sparsedf and hierarchical packages
+export PYTHONPATH=~/Dropbox/hierarchical:$PYTHONPATH
+export PYTHONPATH=~/Dropbox/sparsedf:$PYTHONPATH
