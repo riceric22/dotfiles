@@ -95,6 +95,5 @@ export GIT_EDITOR=vim
 export KMP_AFFINITY=disabled
 
 # enable testing of sparsedf and hierarchical packages
-export PYTHONPATH=~/Dropbox/hierarchical:$PYTHONPATH
-export PYTHONPATH=~/Dropbox/sparsedf:$PYTHONPATH
+export PYTHONPATH=~/convex_adversarial:$PYTHONPATH
 export PATH=/opt/conda/bin:/usr/local/cuda/bin/:$PATH
